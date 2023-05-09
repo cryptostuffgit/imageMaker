@@ -180,7 +180,7 @@ $(this).each(function (delta) {
              drawText:'Draw',
              addTextBoxText:'Add TextBox',
              previewText:'Preview',
-             addTemplateText:'Add template',
+             addTemplateText:'Upload Your PFP',
              resetText: 'Reset',
              imageGeneratorText: 'Image maker',
              stopBrushingText:'Stop Brushing',
