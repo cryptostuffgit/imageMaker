@@ -1,5 +1,5 @@
 
-## Demo & Examples
-### [MonHat PFP Maker](https://andalfthegreat.github.io/imageMaker/demo#MonHat)
+
+### [MonHat PFP Generator](https://andalfthegreat.github.io/imageMaker/demo#MonHat)
 
 
