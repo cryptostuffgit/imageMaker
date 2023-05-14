@@ -81,9 +81,9 @@ var initialElements  = function(canvas_info) {
                 <span class="glyphicon glyphicon-picture"></span> 
                 <span class="text_value">`+canvas_info.i18n.mergeImageText+`</span>
             </button> 
-            <button  class="trigger-element btn btn-sm btn-default" id="amm-brushes">
-                             <span class="glyphicon glyphicon-pencil"></span>             <span class="text_value">`+canvas_info.i18n.drawText+`</span>
-           </button>      
+          //  <button  class="trigger-element btn btn-sm btn-default" id="amm-brushes">
+          //                   <span class="glyphicon glyphicon-pencil"></span>             <span class="text_value">`+canvas_info.i18n.drawText+`</span>
+      //     </button>      
          
                  <button class="responsive-button hide-responsive-button last btn btn-sm btn-default" id="amm-preview-responsive">
                             <span class="glyphicon glyphicon-eye-open"></span>             <span class="text_value">`+canvas_info.i18n.previewText+`</span>
