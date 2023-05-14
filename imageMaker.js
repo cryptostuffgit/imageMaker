@@ -81,25 +81,25 @@ var initialElements  = function(canvas_info) {
                 <span class="glyphicon glyphicon-picture"></span> 
                 <span class="text_value">`+canvas_info.i18n.mergeImageText+`</span>
             </button> 
-           //  <button  class="trigger-element btn btn-sm btn-default" id="amm-brushes">
-           //                  <span class="glyphicon glyphicon-pencil"></span>             <span class="text_value">`+canvas_info.i18n.drawText+`</span>
-       //     </button>      
+            <button  class="trigger-element btn btn-sm btn-default" id="amm-brushes">
+                             <span class="glyphicon glyphicon-pencil"></span>             <span class="text_value">`+canvas_info.i18n.drawText+`</span>
+           </button>      
          
-        //          <button class="responsive-button hide-responsive-button last btn btn-sm btn-default" id="amm-preview-responsive">
-        //                     <span class="glyphicon glyphicon-eye-open"></span>             <span class="text_value">`+canvas_info.i18n.previewText+`</span>
-      //      </button>      
+                 <button class="responsive-button hide-responsive-button last btn btn-sm btn-default" id="amm-preview-responsive">
+                            <span class="glyphicon glyphicon-eye-open"></span>             <span class="text_value">`+canvas_info.i18n.previewText+`</span>
+            </button>      
                   <button href="#" class="trigger-element responsive-button hide-responsive-button first fileUpload btn btn-sm btn-default" 
                   target_element_triggered="#amm-input-upload-image-meme-responsive"  id="amm-upload-image-meme-responsive">
                 <input type="file" class="upload" id="amm-input-upload-image-meme-responsive" name="addImage-responsive">             <span class="glyphicon glyphicon-paperclip"></span>             <span class="text_value">`+canvas_info.i18n.addTemplateText+`</span>
             </button>      
  
            
-       //   <div class="wrapper-amm-stop-brushes">
-        //   <button type="submit" class="btn btn-danger" value="Clear" id="amm-clear-brush">Clear</button>
-       //    <button type="submit" class="btn btn-default" value="Stop Brushing" id="amm-stop-brushing">`+canvas_info.i18n.stopBrushingText+`</button>
-         //  <input type="color" data-on="brushes" class="amm-color-picker colorSelectorBrushes" name="colorSelectorBrushes" value="#ffffff" List/>
-         //  <div class="clear_both"></div>
-       //   </div>
+        <div class="wrapper-amm-stop-brushes">
+          <button type="submit" class="btn btn-danger" value="Clear" id="amm-clear-brush">Clear</button>
+         <button type="submit" class="btn btn-default" value="Stop Brushing" id="amm-stop-brushing">`+canvas_info.i18n.stopBrushingText+`</button>
+          <input type="color" data-on="brushes" class="amm-color-picker colorSelectorBrushes" name="colorSelectorBrushes" value="#ffffff" List/>
+          <div class="clear_both"></div>
+         </div>
           
            <div class="clear_both"></div>
        </div>
