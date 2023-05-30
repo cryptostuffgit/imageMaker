@@ -405,9 +405,11 @@ top: 120px;
 
 
 .wrapper-thumbnail-merge-images{
+    background-color: black;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    flex-direction: column;
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: start;
