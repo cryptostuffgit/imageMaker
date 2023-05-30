@@ -25,16 +25,16 @@ body {
     <script>
      $( document ).ready(function() {
         $('#clothe-tshirt-maker').imageMaker({
-            merge_images:[{url: './demo/assets/design/monhat6.png', title:'Click Monhat to add'},
-                       
+            merge_images:[
+              {url: './demo/assets/design/monhat6.png', title:'Click Monhat to add'},
+              {url: './demo/assets/design/starbucks.png', title:'Click Monhat to add'} 
             ],
             templates:[
             {url: './demo/assets/design/IMG_20230509_125320_161.jpg', title:'Monhat PFP Generator'},
            ],
             text_boxes_count:0
-        });   
-       
- 
+        }); 
+     
         $('#memegenerator').imageMaker( {templates:[
             {url: './assets/meme_generator/One-Does-Not-Simply.jpg', title:'One Does Not Simply'},
             {url: './assets/meme_generator/Roll-Safe-Think-About-It.png', title:'Roll Safe Think About It'},
