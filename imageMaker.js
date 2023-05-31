@@ -148,8 +148,8 @@ $(this).each(function (delta) {
         ctx: null,
         final_width: 0,
         final_height: 0,//The final width of canvas after load and scale canvas
-        _maxWidth: 500,//The initial size that used for scale
-        _maxHeight: 700,
+        _maxWidth: 1024,//The initial size that used for scale
+        _maxHeight: 1024,
         position_left: 0,
         ratio_image: 1,
         ratio_width: 0,
