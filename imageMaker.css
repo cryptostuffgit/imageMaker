@@ -403,12 +403,26 @@ top: 120px;
     width: 100%;
 }
 
+#clothe-tshirt-maker {
+    margin-left: 10px;
+}
+
+.wrapper-amm-hover-title-merge-images {
+    color: white;
+    font-size: large;
+    font-weight: bold;
+}
+
+.monad-meme-generator {
+    margin-left: 30px;
+}
 
 .wrapper-thumbnail-merge-images{
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: start;
